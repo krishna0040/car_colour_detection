@@ -9,8 +9,8 @@ from keras.models import load_model
 # using pretrained yolo nano model to detect pedestrians, cars, bus, trucks.
 yolo_model = YOLO("yolov8n.pt")  
 
-
-path = "C:/Users/Admin/Desktop/nullclass/maybe_final_model_96%train_98%test.keras"
+# change the model path accordingly 
+path = "model_path"
 model = load_model(path)  
 
 top = tk.Tk()
