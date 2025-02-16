@@ -12,4 +12,7 @@ Then apply Image Augmentation, like rotate , flip, zoom in, zoom out and other i
 
 From the classification report and confusion matrix, we can see that the model has performed very well on the test data and from the preview images, we can see that the model again performs very well.
 
-We can improve the detection of cars by using a yolov8-s or yolov8-m
+We can improve the detection of cars by using a yolov8-s or yolov8-m, but it will take more time for computation.
+
+The gui draws a bounding box around the detected car from the uploaded image, when detect is pressed. A red box is drawn for blue cars, blue box for other coloured cars and a green box for pedestrians.
+
